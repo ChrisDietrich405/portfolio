@@ -13,9 +13,38 @@
         margin-top: 50px; 
     }
 
+    .last-container {
+        margin-bottom: 50px; 
+    }
+
     .card {
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         border-radius: 9px; 
         margin-bottom: 50px; 
+    }
+
+    .card-body h5 {
+        display: flex; 
+        justify-content: center; 
+        margin-bottom: 1rem; 
+    }
+
+    .credentials {
+        display: flex; 
+        justify-content: left;  
+    }
+
+    .credentials p {
+        transform: translate(10px, -6px)
+    }
+
+    .credential-icons {
+        display: flex; 
+        justify-content: space-around;
+        margin-bottom: 1rem; 
+    }
+
+    img {
+        width: 700px; 
     }
 }
