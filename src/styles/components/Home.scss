@@ -10,10 +10,10 @@
     }
 
     .container {
-        margin-top: 50px; 
+        margin-top: 50px;
     }
 
-    .last-container {
+    .container-margin {
         margin-bottom: 50px; 
     }
 
@@ -47,4 +47,21 @@
     img {
         width: 700px; 
     }
+
+
+}
+
+.projects-container {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.project-container {
+    margin: 0 auto; 
+}
+
+
+.english-in-eight-image {
+    border: 1px solid black; 
 }

@@ -89,31 +89,32 @@ export default function Home() {
         </div>
         <hr />
         <h1>Projects</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title">English in Eight Minutes</h5>
-                            <p className="card-text">So this is how it started. 
-                            I was building a English teaching website with the help of some students.
-                            I quickly became fascinated with coding and next realized I had found my
-                            first real professinal passion.</p>
+        <div className="projects-container">
+            <div class="container project-container">
+                <div class="row">
+                    <div class="col-6">
+                    <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">English in Eight Minutes</h5>
+                                <p className="card-text">So this is how it started. 
+                                I was building a English teaching website with the help of some students.
+                                I quickly became fascinated with coding and next realized I had found my
+                                first real professinal passion.</p>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="col-6">
+                        <img src="../../images/english-in-eight.png" className="english-in-eight-image" alt="" />
+                    </div> 
                 </div>
-              
-                <div class="col-8">
-                    <img src="../../images/english-in-eight.png" alt="" />
-                </div> 
             </div>
-        </div>
-        <div class="container last-container">
+            <div class="container project-container container-margin">
             <div class="row">
-                <div class="col-8">
+                <div class="col-6">
                     <img src="../../images/dietrich-landcare.png" alt="" />
                 </div>
-                <div class="col-4">
+                <div class="col-6">
                 <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Dietrich Landcare</h5>
@@ -122,6 +123,24 @@ export default function Home() {
                     </div>
                 </div>  
             </div>
+        </div>
+            <div class="container project-container container-margin">
+            <div class="row">
+                <div class="col-5">
+                <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">CGShop</h5>
+                            <p className="card-text">CGShop was a project I did in order to practice 
+                            my.......skills</p>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="col-7">
+                    <img src="../../images/cgshop.png" className="english-in-eight-image" alt="" />
+                </div> 
+            </div>
+        </div>
         </div>
         <GetInTouch/>
     </div>
