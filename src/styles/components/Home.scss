@@ -66,6 +66,11 @@
     border: 1px solid black; 
 }
 
-// .cgshop {
-//     width: 1800px; 
-// }
+.scroll-top {
+    width: 100px; 
+    height: 100px; 
+    opacity: 100%; 
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+}

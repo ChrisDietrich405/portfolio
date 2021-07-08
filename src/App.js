@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import Home from "./pages/Home"
-import Portfolio from "./pages/Portfolio"
+import Portfolio from "./pages/Projects"
 import About from "./pages/About"
 import Navbar from "./components/Navbar"
 
