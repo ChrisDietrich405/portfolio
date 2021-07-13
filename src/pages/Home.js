@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom"
-import { IconContext } from "react-icons";
-
 
 import { 
     CgArrowUpR, 
@@ -21,21 +19,19 @@ import GetInTouch from "../components/Footer"
 import Projects from "./Projects"
 import useScroll from "../hooks/useScroll"
 
-import "../styles/components/Home.scss"
+import "../styles/pages/Home.scss"
 
 //https://mail.google.com/mail/u/0/#inbox?projector=1
 //ADD A HERO IMAGE A PICTURE OF ME AT THE COMPUTER FROM BEHIND SHOWING MY SILHOUETTE 
 export default function Home() {
 
-	const { shouldScrollToTop } = useScroll()
-
+	const { shouldScrollToTop, scrollToTop } = useScroll()
+   
     return (
     <>
-    {shouldScrollToTop && <div className="scroll-top"><IconContext.Provider value={{ position: "fixed", color: "green", className: "global-class-name" }}>
-                          <div>
-                          <CgArrowUpR size={100}/>
-                          </div>
-                          </IconContext.Provider></div>}
+    {shouldScrollToTop && <div className="scroll-top" onClick={ scrollToTop }>
+                            <CgArrowUpR size={100}/>
+                         </div>}
     <div className="home-container"> 
         <h1>Successful Front-end Development</h1>
         <h3> Hello I'm Chris, a Front-end Developer with a true passion for web development</h3>
@@ -48,11 +44,11 @@ export default function Home() {
                             <h5 className="card-title">Languages</h5>
                             
                             <div className="credentials">
-                            <IconContext.Provider value={{ color: "blue", className: "global-class-name" }}>
+                            
                             <div>
                             <IoLogoJavascript />
                             </div>
-                            </IconContext.Provider>
+                            
                                 <IoLogoJavascript/>
                                 <p>Javascript</p>
                             </div>
@@ -118,9 +114,9 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <hr />
-        <Projects />
-        <GetInTouch/>
+        <hr />       
+        <Projects/>
+        <GetInTouch />
     </div>
     </>
     )

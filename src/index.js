@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import SectionProvider from './contexts/SectionContext';
 import "./styles/global.scss"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SectionProvider>
+      <App />
+    </SectionProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

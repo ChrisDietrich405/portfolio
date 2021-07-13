@@ -1,6 +1,17 @@
+import useScroll from "../hooks/useScroll"
+import { useContext } from "react"
+
+import { SectionContext } from "../contexts/SectionContext"
+
 import "../styles/components/Navbar.scss"
 
 export default function Navbar() {
+
+    const { projectRef, getInTouchRef } = useContext(SectionContext)
+
+
+    const { scrollTo } = useScroll()
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
@@ -14,13 +25,13 @@ export default function Navbar() {
                           <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link" href="#">Projects</a>
+                          <a className="nav-link" href="#" onClick={() => scrollTo(projectRef.current.offsetTop)}>Projects</a>
                         </li>
                         <li className="nav-item">
                           <a className="nav-link" href="#">About Me</a>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link" href="#">Get in touch</a>
+                          <a className="nav-link" href="#" onClick={() => scrollTo(getInTouchRef.current.offsetTop)}>Get in touch</a>
                         </li>
                     </ul>
                 </div>

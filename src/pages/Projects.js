@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom"
+import { useContext } from "react"
+import { SectionContext } from "../contexts/SectionContext" 
+
+import "../styles/pages/Projects.scss"
 
 export default function Projects() {
+    
+    const { projectRef } = useContext(SectionContext)
+
     return (
-    <div>
+    <div ref={projectRef}>
         <h1>Projects</h1>
         <div className="projects-container">
             <div class="container project-container">
