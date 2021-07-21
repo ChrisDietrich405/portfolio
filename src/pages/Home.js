@@ -17,6 +17,7 @@ import {
 
 import GetInTouch from "../components/Footer"
 import Projects from "./Projects"
+import AboutMe from "./AboutMe"
 import useScroll from "../hooks/useScroll"
 
 import "../styles/pages/Home.scss"
@@ -29,45 +30,42 @@ export default function Home() {
    
     return (
     <>
+    <div className="home-container"> 
+    <hr className="home-hr" /> 
     {shouldScrollToTop && <div className="scroll-top" onClick={ scrollToTop }>
                             <CgArrowUpR size={100}/>
                          </div>}
-    <div className="home-container"> 
         <h1>Successful Front-end Development</h1>
-        <h3> Hello I'm Chris, a Front-end Developer with a true passion for web development</h3>
+        <h3> Hello I'm Chris, a Junior React Developer with a true passion for web development</h3>
         <div className="container">
             <div className="row">
                 <div className="col">
                     <div className="card">
                         {/* <img src="..." className="card-img-top" alt="..."/> */}
                         <div className="card-body">
-                            <h5 className="card-title">Languages</h5>
-                            
-                            <div className="credentials">
-                            
-                            <div>
-                            <IoLogoJavascript />
-                            </div>
-                            
-                                <IoLogoJavascript/>
-                                <p>Javascript</p>
-                            </div>
-                            <div className="credentials">
-                                <FaHtml5/>
-                                <p>HTML</p>
-                            </div>
-                            <div className="credentials">
-                                <FaCss3Alt/>
-                                <p>CSS</p>
-                            </div>
-                            <div className="credentials">
-                                <FaSass/>
-                                <p>Sass</p>
+                            <h5 className="card-title">Languages</h5> 
+                            <div className="credentials">                          
+                                <div>
+                
+                                </div>
+                                    <IoLogoJavascript/>
+                                    <p>Javascript</p>
+                                </div>
+                                <div className="credentials">
+                                    <FaHtml5/>
+                                    <p>HTML</p>
+                                </div>
+                                <div className="credentials">
+                                    <FaCss3Alt/>
+                                    <p>CSS</p>
+                                </div>
+                                <div className="credentials">
+                                    <FaSass/>
+                                    <p>Sass</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
                 <div className="col">
                 <div className="card">
                         {/* <img src="..." className="card-img-top" alt="..."/> */}
@@ -99,6 +97,10 @@ export default function Home() {
                                 <p>VSC</p>
                             </div>
                             <div className="credentials">
+                                <SiVisualstudio/>
+                                <p>VSC Integrated Terminal</p>
+                            </div>
+                            <div className="credentials">
                                 <SiFirebase/>
                                 <p>Firebase</p>
                             </div>
@@ -106,9 +108,7 @@ export default function Home() {
                                 <SiPostman/>
                                 <p>Postman</p>
                             </div>
-                            <p>VSC integrated terminal</p>
                             <p>Axios</p>
-        
                         </div>
                     </div>
                 </div>
@@ -116,6 +116,7 @@ export default function Home() {
         </div>
         <hr />       
         <Projects/>
+        <AboutMe /> 
         <GetInTouch />
     </div>
     </>

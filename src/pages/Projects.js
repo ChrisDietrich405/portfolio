@@ -35,17 +35,18 @@ export default function Projects() {
             </div>
             <div class="container project-container container-margin">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-8 mt-5 me-4">
                     <Link to={{ pathname: "https://dietrich-landcare.web.app/" }} target="_blank" >
                             <img src="../../images/dietrich-landcare.png" />
                     </Link>
                     </div>
-                    <div class="col-4">
-                    <div className="card">
+                    <div class="col-3 mt-5 ms-4">
+                    <div className="card dietrich-text">
                             <div className="card-body">
                                 <h5 className="card-title">Dietrich Landcare</h5>
-                                <p className="card-text">My son needed a website for his business, so I built him one
-                                For this project I decided to use object oriented programming instead of functional programming
+                                <p className="card-text">My son needed a website for his landscaping business, so I built him one.
+                                For this project I used object oriented programming instead of functional programming. I know that although 
+                                I realize that it's important to be familiar with both.                            
                                 </p>
                             </div>
                         </div>
@@ -54,7 +55,7 @@ export default function Projects() {
             </div>
             <div class="container project-container">
                 <div class="row justify-content-center">
-                    <div class="col-4">
+                    <div class="col-4 mt-5">
                     <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">CGShop</h5>
@@ -65,7 +66,7 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    <div class="col-8">
+                    <div class="col-8 mt-5">
                         <Link to={{ pathname: "https://gcshop-b5488.web.app/" }} target="_blank" >
                                 <img src="../../images/cgshop.png" />
                         </Link>
@@ -73,6 +74,7 @@ export default function Projects() {
                 </div>
             </div>
         </div>
+        <hr />
     </div>
     )
 }

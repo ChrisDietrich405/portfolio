@@ -1,14 +1,12 @@
 import useScroll from "../hooks/useScroll"
 import { useContext } from "react"
-
 import { SectionContext } from "../contexts/SectionContext"
 
 import "../styles/components/Navbar.scss"
 
 export default function Navbar() {
 
-    const { projectRef, getInTouchRef } = useContext(SectionContext)
-
+    const { projectRef, getInTouchRef, aboutMeRef } = useContext(SectionContext)
 
     const { scrollTo } = useScroll()
 
@@ -26,16 +24,19 @@ export default function Navbar() {
                         </li>
                         <li className="nav-item">
                           <a className="nav-link" href="#" onClick={() => scrollTo(projectRef.current.offsetTop)}>Projects</a>
-                        </li>
+                        </li>                                                                         
                         <li className="nav-item">
-                          <a className="nav-link" href="#">About Me</a>
+                          <a className="nav-link" href="#" onClick={() => scrollTo(aboutMeRef.current.offsetTop)}>About Me</a>
                         </li>
                         <li className="nav-item">
                           <a className="nav-link" href="#" onClick={() => scrollTo(getInTouchRef.current.offsetTop)}>Get in touch</a>
                         </li>
                     </ul>
                 </div>
+                <hr className="hr-navbar"/>
+ 
             </div>
+            
         </nav>
     )
 }

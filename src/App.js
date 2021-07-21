@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import Home from "./pages/Home"
 import Portfolio from "./pages/Projects"
-import About from "./pages/About"
+import AboutMe from "./pages/AboutMe"
 import Navbar from "./components/Navbar"
+
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Switch>
         <Route path="/" exact={true} component={Home}/>
         <Route path="/portfolio" component={Portfolio}/>
-        <Route path="/about" exact={true} component={About}/>
+        <Route path="/about" exact={true} component={AboutMe}/>
       </Switch>
     </Router>
   );
