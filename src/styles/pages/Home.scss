@@ -25,9 +25,8 @@
         }
     }
 
-    .scroll-top {
-        width: 100px; 
-        height: 100px; 
+    .scroll-top { 
+        cursor: pointer; 
         opacity: 100%; 
         position: fixed;
         bottom: 20px; 

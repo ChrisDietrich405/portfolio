@@ -33,7 +33,7 @@ export default function Home() {
     <div className="home-container"> 
     <hr className="home-hr" /> 
     {shouldScrollToTop && <div className="scroll-top" onClick={ scrollToTop }>
-                            <CgArrowUpR size={100}/>
+                            <CgArrowUpR size={50}/>
                          </div>}
         <h1>Successful Front-end Development</h1>
         <h3> Hello I'm Chris, a Junior React Developer with a true passion for web development</h3>
@@ -72,7 +72,7 @@ export default function Home() {
                         <div className="card-body">
                             <h5 className="card-title">Frameworks</h5>
                             <div className="credentials">
-                                <FaReact/>
+                                <FaReact color="#61dafb"/>
                                 <p>React</p>
                             </div>
                             <div className="credentials">
@@ -101,7 +101,7 @@ export default function Home() {
                                 <p>VSC Integrated Terminal</p>
                             </div>
                             <div className="credentials">
-                                <SiFirebase/>
+                                <SiFirebase color="ffcb2b"/>
                                 <p>Firebase</p>
                             </div>
                             <div className="credentials">

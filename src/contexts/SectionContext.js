@@ -1,4 +1,5 @@
-import { useRef, createContext } from "react"
+import { useRef, createContext, useContext } from "react"
+
 
 export const SectionContext = createContext()
 
@@ -12,3 +13,5 @@ export default function SectionProvider({children}) {
             {children}
         </SectionContext.Provider>)
 }
+
+export const useSection = () => useContext(SectionContext)
