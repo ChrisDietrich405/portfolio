@@ -17,16 +17,22 @@ export default function Footer() {
 			<div className="footer-wrap">
 				<div className="get-in-touch-container">
 					<div className="contact">
-						<p><AiOutlineMail/>chrisdietrich3666@gmail.com</p> 
+						<div className="email-container">
+							<p><AiOutlineMail/></p>
+							<p>chrisdietrich3666@gmail.com</p> 
+						</div>
 						<div className="contact-icons">
 							<Link to={{ pathname: "https://github.com/ChrisDietrich405/" }} target="_blank" >
-								<FaGithubSquare size="1.5em" color="white" />
+								<FaGithubSquare size="2em" color="white" className="github-icon" />
 							</Link>
 							<Link to={{ pathname: "https://github.com/ChrisDietrich405/" }} target="_blank" >
-								<AiOutlineLinkedin size="1.5em" color="white"/>
+								<AiOutlineLinkedin size="2em" color="white"/>
 							</Link>
 						</div>
-						<p><AiFillPhone/>443 286 2875</p>
+						<div className="phone-container">
+							<p><AiFillPhone/></p>
+							<p>443 286 2875</p>
+						</div>
 					</div>
 				</div>
 				<div className="message-container">

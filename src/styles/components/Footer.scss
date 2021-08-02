@@ -20,6 +20,16 @@
         display: flex;    
     }
 
+    .email-container {
+        display: flex; 
+        align-items: center; 
+        justify-content: space-around; 
+    }
+
+    .email-container p {
+        margin-right: 5px; 
+    }
+
     .contact {
         display: flex; 
         flex-direction: column; 
@@ -28,8 +38,19 @@
     }
 
     .contact-icons {
+        width: 200px; 
         display: flex; 
-        justify-content: space-between; 
+        justify-content: space-around; 
+    }
+
+    .phone-container {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .phone-container p {
+        margin-right: 5px; 
     }
 
     .message-container {

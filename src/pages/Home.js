@@ -19,6 +19,7 @@ import GetInTouch from "../components/Footer"
 import Projects from "./Projects"
 import AboutMe from "./AboutMe"
 import useScroll from "../hooks/useScroll"
+// import PortfolioPic from "../../public/images/portfolio.jpg"
 
 import "../styles/pages/Home.scss"
 
@@ -30,12 +31,14 @@ export default function Home() {
    
     return (
     <>
+    
     <div className="home-container"> 
     <hr className="home-hr" /> 
     {shouldScrollToTop && <div className="scroll-top" onClick={ scrollToTop }>
                             <CgArrowUpR size={50}/>
                          </div>}
         <h1>Successful Front-end Development</h1>
+        <img src="/images/portfolio2.jpg" className="portfolio-header-pic"/>
         <h3> Hello I'm Chris, a Junior React Developer with a true passion for web development</h3>
         <div className="container">
             <div className="row">
@@ -48,19 +51,19 @@ export default function Home() {
                                 <div>
                 
                                 </div>
-                                    <IoLogoJavascript/>
+                                    <IoLogoJavascript color="#323330"/>
                                     <p>Javascript</p>
                                 </div>
                                 <div className="credentials">
-                                    <FaHtml5/>
+                                    <FaHtml5 color="#e44d26"/>
                                     <p>HTML</p>
                                 </div>
                                 <div className="credentials">
-                                    <FaCss3Alt/>
+                                    <FaCss3Alt color="#264de4"/>
                                     <p>CSS</p>
                                 </div>
                                 <div className="credentials">
-                                    <FaSass/>
+                                    <FaSass color=" #c69"/>
                                     <p>Sass</p>
                                 </div>
                             </div>
@@ -76,7 +79,7 @@ export default function Home() {
                                 <p>React</p>
                             </div>
                             <div className="credentials">
-                                <FaBootstrap/>
+                                <FaBootstrap color="#080135"/>
                                 <p>Bootstrap</p>
                             </div>
                         </div>
@@ -89,15 +92,15 @@ export default function Home() {
                         <div className="card-body">
                             <h5 className="card-title">Other Stuff</h5>
                             <div className="credentials">
-                                <FaGithubSquare/>
+                                <FaGithubSquare color="#000000"/>
                                 <p>Github</p>
                             </div>
                             <div className="credentials">
-                                <SiVisualstudio/>
+                                <SiVisualstudio color="#0078d7"/>
                                 <p>VSC</p>
                             </div>
                             <div className="credentials">
-                                <SiVisualstudio/>
+                                <SiVisualstudio color="#61dafb"/>
                                 <p>VSC Integrated Terminal</p>
                             </div>
                             <div className="credentials">
@@ -105,7 +108,7 @@ export default function Home() {
                                 <p>Firebase</p>
                             </div>
                             <div className="credentials">
-                                <SiPostman/>
+                                <SiPostman color="#ef5b25"/>
                                 <p>Postman</p>
                             </div>
                             <p>Axios</p>
