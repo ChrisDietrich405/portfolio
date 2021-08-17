@@ -20,7 +20,7 @@ export default function Projects() {
 									<p className="card-text">So this is how it started. 
                                 I was building a English teaching website with the help of some students.
                                 I quickly became fascinated with coding and next realized I had found my
-                                first real professinal passion.</p>
+                                first real professinal passion.</p><a href="https://github.com/ChrisDietrich405/english-in-eight-react-final">GitHub repo</a>
 								</div>
 							</div>
 						</div>
@@ -45,7 +45,7 @@ export default function Projects() {
 									<h5 className="card-title">Dietrich Landcare</h5>
 									<p className="card-text">My son needed a website for his landscaping business, so I built him one.
                                 For this project I used object oriented programming instead of functional programming. I know that although 
-                                I realize that it's important to be familiar with both.                            
+                                I realize that it's important to be familiar with both. <a href="https://github.com/ChrisDietrich405/dietrich-landcare-react-final">GitHub repo</a>                           
 									</p>
 								</div>
 							</div>
@@ -60,7 +60,7 @@ export default function Projects() {
 									<h5 className="card-title">CGShop</h5>
 									<p className="card-text">Welcome to CGShop! I learned a lot about async await 
                                 working on the loading page of this project. I also finally understood how 
-                                to work with state management</p>
+                                to work with state management</p><a href="https://github.com/ChrisDietrich405/GC.Shop">GitHub repo</a>
 								</div>
 							</div>
 						</div>

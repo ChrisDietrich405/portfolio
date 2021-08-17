@@ -38,8 +38,8 @@ export default function Home() {
                             <CgArrowUpR size={50}/>
                          </div>}
         <h1>Successful Front-end Development</h1>
-        <img src="/images/portfolio2.jpg" className="portfolio-header-pic"/>
-        <h3> Hello I'm Chris, a Junior React Developer with a true passion for web development</h3>
+        {/* <img src="/images/portfolio2.jpg" className="portfolio-header-pic"/> */}
+        <h3> Hello I'm Chris, a React Developer with a true passion for web development</h3>
         <div className="container">
             <div className="row">
                 <div className="col">

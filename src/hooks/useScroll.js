@@ -20,6 +20,5 @@ export default function useScroll() {
                                              //first 0 refers to x and the second 0 refers to the y 
 
     const scrollTo = (position) => window.scrollTo(0, position) //referring to the element
-
     return { shouldScrollToTop, scrollToTop, scrollTo }
 }
