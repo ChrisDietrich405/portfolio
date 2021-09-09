@@ -14,17 +14,20 @@ import {
     SiPostman 
 } from "react-icons/all"
 
+import { BeforeAndAfterSliderFunctional } from "chris-library"
 
 import GetInTouch from "../components/Footer"
 import Projects from "./Projects"
 import AboutMe from "./AboutMe"
 import useScroll from "../hooks/useScroll"
-// import PortfolioPic from "../../public/images/portfolio.jpg"
+
+import BeforePic from ".."
+
+
 
 import "../styles/pages/Home.scss"
 
-//https://mail.google.com/mail/u/0/#inbox?projector=1
-//ADD A HERO IMAGE A PICTURE OF ME AT THE COMPUTER FROM BEHIND SHOWING MY SILHOUETTE 
+
 export default function Home() {
 
 	const { shouldScrollToTop, scrollToTop } = useScroll()
@@ -33,6 +36,7 @@ export default function Home() {
     <>
     
     <div className="home-container"> 
+    {/* <BeforeAndAfterSliderFunctional BeforePic="/images/about-me.jpg" /> */}
     <hr className="home-hr" /> 
     {shouldScrollToTop && <div className="scroll-top" onClick={ scrollToTop }>
                             <CgArrowUpR size={50}/>
@@ -111,7 +115,6 @@ export default function Home() {
                                 <SiPostman color="#ef5b25"/>
                                 <p>Postman</p>
                             </div>
-                            <p>Axios</p>
                         </div>
                     </div>
                 </div>

@@ -13,7 +13,8 @@
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^1.1.1",
+    "chris-library": "https://github.com/ChrisDietrich405/ui-components-library.git"
   },
   "scripts": {
     "start": "react-scripts start",

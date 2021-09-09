@@ -13,11 +13,10 @@ export default function useScroll() {
             }
         })
         return () => window.removeEventListener("scroll")
-        //cleanup function 
+
     }, [])
 
-    const scrollToTop = () => window.scrollTo(0, 0) //refers to the top of page 
-                                             //first 0 refers to x and the second 0 refers to the y 
+    const scrollToTop = () => window.scrollTo(0, 0) 
 
     const scrollTo = (position) => window.scrollTo(0, position) //referring to the element
     return { shouldScrollToTop, scrollToTop, scrollTo }
