@@ -1,8 +1,17 @@
 .navbar {
-    height: 30px;
-    background-color: black;
+    height: 100px;
+    background-color: black; 
+
+    a {
+        color: #fff !important; 
+        z-index: 1;
+    }
+
+    hr {
+        color: #fff !important;
+    }
 
     .container {
-        margin-top: 40px; 
+        display: flex; 
     }
 }

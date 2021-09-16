@@ -33,19 +33,23 @@
     .contact {
         display: flex; 
         flex-direction: column; 
-        justify-content: center; 
-        align-items: center; 
+        justify-content: left; 
+        align-items: left; 
     }
 
     .contact-icons {
         width: 200px; 
         display: flex; 
-        justify-content: space-around; 
+        justify-content: left; 
+    }
+
+    .github-icon {
+        margin-right: 10px; 
     }
 
     .phone-container {
         display: flex; 
-        justify-content: center; 
+        justify-content: left; 
         align-items: center; 
     }
 

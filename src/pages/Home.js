@@ -37,7 +37,6 @@ export default function Home() {
     
     <div className="home-container"> 
     {/* <BeforeAndAfterSliderFunctional BeforePic="/images/about-me.jpg" /> */}
-    <hr className="home-hr" /> 
     {shouldScrollToTop && <div className="scroll-top" onClick={ scrollToTop }>
                             <CgArrowUpR size={50}/>
                          </div>}
@@ -119,8 +118,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </div>
-        <hr />       
+        </div>     
         <Projects/>
         <AboutMe /> 
         <GetInTouch />

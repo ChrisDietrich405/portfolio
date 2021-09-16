@@ -8,9 +8,9 @@ export default function Projects() {
 	const { projectRef } = useSection()
 
 	return (
-		<div ref={projectRef}>
-			<h1>Projects</h1>
+		<div ref={projectRef}>	
 			<div className="projects-container">
+				<h1>Projects</h1>
 				<div className="container project-container">
 					<div className="row justify-content-center">
 						<div className="col-4">
@@ -73,7 +73,6 @@ export default function Projects() {
 					</div>
 				</div>
 			</div>
-			<hr />
 		</div>
 	)
 }

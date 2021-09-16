@@ -23,7 +23,7 @@ export default function Footer() {
 						</div>
 						<div className="contact-icons">
 							<Link to={{ pathname: "https://github.com/ChrisDietrich405/" }} target="_blank" >
-								<FaGithubSquare size="2em" color="white" className="github-icon" />
+								<FaGithubSquare size="2em"  color="white" className="github-icon" />
 							</Link>
 							<Link to={{ pathname: "https://github.com/ChrisDietrich405/" }} target="_blank" >
 								<AiOutlineLinkedin size="2em" color="white"/>

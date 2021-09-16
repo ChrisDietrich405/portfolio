@@ -33,8 +33,7 @@ export default function Navbar() {
                         </li>
                     </ul>
                 </div>
-                <hr className="hr-navbar"/>
- 
+  
             </div>
             
         </nav>

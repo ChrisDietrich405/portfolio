@@ -1,3 +1,4 @@
+//the three cards at the top are basically done, just think of a better name instead of other things
 //add testimonials?|
 //change the color of the header to black 00000000 with no hr
 //move the title up a little 
@@ -13,6 +14,7 @@
 //add more of a margin to both sides so that the arrow passes them cleanly
 //take a new pic of the CGSHop
 //make my picture black and white 
+//contact needs a submit button 
 
 //https://dribbble.com/shots/16199327-Gilb-Personal-Website-Portfolio
 //for the footer email, linkedin everything left aligned 
