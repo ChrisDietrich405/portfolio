@@ -1,12 +1,8 @@
 .about-me-container {
     display: flex; 
+    flex-direction: column; 
     justify-content: space-between;
-    align-items: center; 
-
-    hr {
-        height: 30px; 
-        color: black; 
-    }
+    align-items: center;    
     
     .about-me-picture-container {
         width: 30%;
@@ -16,8 +12,7 @@
     }
     
     .about-me-description-container {
-        width: 70%; 
-         
+        width: 70%;   
     }
     
     .about-me-picture {

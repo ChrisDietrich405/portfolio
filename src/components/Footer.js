@@ -44,6 +44,7 @@ export default function Footer() {
 						<label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
 						<textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 					</div>
+					<button>Submit</button>
 				</div>
 			</div>
 		</div> 
