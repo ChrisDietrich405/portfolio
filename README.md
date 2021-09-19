@@ -1,11 +1,11 @@
-# beauty-by-jo
+# portfolio
 
-This app is an online cel phone store. 
+This is my portfolio. 
 This project includes bootstrap and also the useContext React Hook
 
 ## How To Run This Project
 
-1. Clone project (in terminal add `git clone https://github.com/ChrisDietrich405/beauty-by-jo`)
+1. Clone project (in terminal add `git clone https://github.com/ChrisDietrich405/portfolio`)
 2. Install dependencies (in terminal run `npm install`)
 3. Run project (in terminal run `npm start`)
 
