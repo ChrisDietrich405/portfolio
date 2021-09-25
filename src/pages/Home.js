@@ -26,6 +26,7 @@ import BeforePic from ".."
 
 
 import "../styles/pages/Home.scss"
+import "../styles/custom-style.scss"
 
 
 export default function Home() {
@@ -45,14 +46,12 @@ export default function Home() {
         <h3> Hello I'm Chris, a React Developer with a true passion for web development</h3>
         <div className="container">
             <div className="row">
-                <div className="col">
+                <div className="col-sm-12 col-md-12 col-lg-4 col-xs-12">
                     <div className="card">
-                        {/* <img src="..." className="card-img-top" alt="..."/> */}
                         <div className="card-body">
                             <h5 className="card-title">Languages</h5> 
                             <div className="credentials">                          
-                                <div>
-                
+                                <div>              
                                 </div>
                                     <IoLogoJavascript color="#323330"/>
                                     <p>Javascript</p>
@@ -72,53 +71,53 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                <div className="col">
-                <div className="card">
-                        {/* <img src="..." className="card-img-top" alt="..."/> */}
-                        <div className="card-body">
-                            <h5 className="card-title">Frameworks</h5>
-                            <div className="credentials">
-                                <FaReact color="#61dafb"/>
-                                <p>React</p>
-                            </div>
-                            <div className="credentials">
-                                <FaBootstrap color="#080135"/>
-                                <p>Bootstrap</p>
+                <div className="col-sm-12 col-md-12 col-lg-4 col-xs-12">
+                    <div className="card">
+                            {/* <img src="..." className="card-img-top" alt="..."/> */}
+                            <div className="card-body">
+                                <h5 className="card-title">Frameworks</h5>
+                                <div className="credentials">
+                                    <FaReact color="#61dafb"/>
+                                    <p>React</p>
+                                </div>
+                                <div className="credentials">
+                                    <FaBootstrap color="#080135"/>
+                                    <p>Bootstrap</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div className="col">
-                <div className="card">
-                        {/* <img src="..." className="card-img-top" alt="..."/> */}
-                        <div className="card-body">
-                            <h5 className="card-title">Other Stuff</h5>
-                            <div className="credentials">
-                                <FaGithubSquare color="#000000"/>
-                                <p>Github</p>
-                            </div>
-                            <div className="credentials">
-                                <SiVisualstudio color="#0078d7"/>
-                                <p>VSC</p>
-                            </div>
-                            <div className="credentials">
-                                <SiVisualstudio color="#61dafb"/>
-                                <p>VSC Integrated Terminal</p>
-                            </div>
-                            <div className="credentials">
-                                <SiFirebase color="ffcb2b"/>
-                                <p>Firebase</p>
-                            </div>
-                            <div className="credentials">
-                                <SiPostman color="#ef5b25"/>
-                                <p>Postman</p>
+                <div className="col-sm-12 col-md-12 col-lg-4 col-xs-12">
+                    <div className="card">
+                            {/* <img src="..." className="card-img-top" alt="..."/> */}
+                            <div className="card-body">
+                                <h5 className="card-title">Other Stuff</h5>
+                                <div className="credentials">
+                                    <FaGithubSquare color="#000000"/>
+                                    <p>Github</p>
+                                </div>
+                                <div className="credentials">
+                                    <SiVisualstudio color="#0078d7"/>
+                                    <p>VSC</p>
+                                </div>
+                                <div className="credentials">
+                                    <SiVisualstudio color="#61dafb"/>
+                                    <p>VSC Integrated Terminal</p>
+                                </div>
+                                <div className="credentials">
+                                    <SiFirebase color="ffcb2b"/>
+                                    <p>Firebase</p>
+                                </div>
+                                <div className="credentials">
+                                    <SiPostman color="#ef5b25"/>
+                                    <p>Postman</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>     
+            </div>     
         <Projects/>
         <AboutMe /> 
         <GetInTouch />

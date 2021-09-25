@@ -27,9 +27,17 @@ import Portfolio from "./pages/Projects"
 import AboutMe from "./pages/AboutMe"
 import Navbar from "./components/Navbar"
 
+// import {Helmet} from "react-helmet";
+
 function App() {
 	return (
 		<Router>
+			{/* <Helmet>
+            	<meta charSet="utf-8" />
+            	<title>Dietrich Landcare</title>
+            	<meta name="Portfolio Title" content="Helmet application" />
+            	<link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>     */}
 			<Navbar/>
 			<Switch>
 				<Route path="/" exact={true} component={Home}/>
