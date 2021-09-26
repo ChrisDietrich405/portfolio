@@ -73,4 +73,17 @@
     .form-label {
         color: white; 
     }
+
+    
+    @media screen and (max-width: 800px) {
+        .footer-wrap {
+            display: flex; 
+            flex-direction: column; 
+            background-color: #000;
+
+        .get-in-touch-container, .message-container {
+            margin: 1rem 3rem; 
+            }
+        }
+    }
 }

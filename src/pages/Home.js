@@ -102,10 +102,6 @@ export default function Home() {
                                     <p>VSC</p>
                                 </div>
                                 <div className="credentials">
-                                    <SiVisualstudio color="#61dafb"/>
-                                    <p>VSC Integrated Terminal</p>
-                                </div>
-                                <div className="credentials">
                                     <SiFirebase color="ffcb2b"/>
                                     <p>Firebase</p>
                                 </div>
