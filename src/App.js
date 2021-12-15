@@ -1,3 +1,9 @@
+
+
+
+
+
+
 //the three cards at the top are basically done, just think of a better name instead of other things
 //add testimonials?|
 //change the color of the header to black 00000000 with no hr
@@ -21,6 +27,8 @@
 
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import Home from "./pages/Home"
 import Portfolio from "./pages/Projects"
@@ -32,12 +40,6 @@ import Navbar from "./components/Navbar"
 function App() {
 	return (
 		<Router>
-			{/* <Helmet>
-            	<meta charSet="utf-8" />
-            	<title>Dietrich Landcare</title>
-            	<meta name="Portfolio Title" content="Helmet application" />
-            	<link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>     */}
 			<Navbar/>
 			<Switch>
 				<Route path="/" exact={true} component={Home}/>
