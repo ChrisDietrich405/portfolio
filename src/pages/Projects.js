@@ -104,11 +104,10 @@ export default function Projects() {
             </Link>
           </div>
           <div className="card-body-project">
-            <h5 className="card-title">Dietrich Landcare</h5>
+            <h5 className="card-title">Beauty By Jo</h5>
             <p className="card-text">
-              My oldest son needed a website for his business so I started
-              building him one. For this project I used object oriented
-              programming.
+              This was my first freelance job, a website for a salon. Creating
+              the modals for the appointment calendar was the biggest challenge.
             </p>
             <a href="https://github.com/ChrisDietrich405/dietrich-landcare">
               GitHub repo
@@ -117,11 +116,10 @@ export default function Projects() {
         </div>
         <div className="project-section">
           <div className="card-body-project">
-            <h5 className="card-title">CGShop</h5>
+            <h5 className="card-title">Earthsave Baltimore</h5>
             <p className="card-text">
-              Welcome to CGShop! I learned a lot about async await working on
-              the loading page of this project. I also finally understood how to
-              work with state management
+              I built this website for a friend, someone who runs a nonprofit.
+              It was fairly simple, but I was able to practice a lot with scss.
             </p>
             <a href="https://github.com/ChrisDietrich405/GC.Shop">
               GitHub repo
