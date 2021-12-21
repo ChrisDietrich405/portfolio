@@ -19,6 +19,7 @@ export default function AboutMe() {
       </div>
       <div className="about-me-picture-container">
         <img src="/images/about-me.jpg" />
+        <img src="/images/about-me2.jpg" />
       </div>
     </div>
   );

@@ -97,10 +97,7 @@ export default function Projects() {
               }}
               target="_blank"
             >
-              <img
-                src="/images/dietrich-landcare.png"
-                className="website-image"
-              />
+              <img src="/images/beauty-by-jo.png" className="website-image" />
             </Link>
           </div>
           <div className="card-body-project">
@@ -133,7 +130,10 @@ export default function Projects() {
               }}
               target="_blank"
             >
-              <img src="/images/cgshop.png" className="website-image" />
+              <img
+                src="/images/earthsave-baltimore.jpg"
+                className="website-image"
+              />
             </Link>
           </div>
         </div>
