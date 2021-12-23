@@ -38,6 +38,7 @@ export default function Projects() {
             </Link>
           </div>
         </div>
+        <hr />
         <div className="project-section-middle">
           <div>
             <Link
@@ -64,6 +65,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
+        <hr />
         <div className="project-section">
           <div className="card-body-project">
             <h5 className="card-title">CGShop</h5>
@@ -88,7 +90,7 @@ export default function Projects() {
             </Link>
           </div>
         </div>
-
+        <hr />
         <div className="project-section-middle">
           <div>
             <Link
@@ -111,6 +113,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
+        <hr />
         <div className="project-section">
           <div className="card-body-project">
             <h5 className="card-title">Earthsave Baltimore</h5>
@@ -131,7 +134,7 @@ export default function Projects() {
               target="_blank"
             >
               <img
-                src="/images/earthsave-baltimore.jpg"
+                src="/images/earthsave-baltimore.png"
                 className="website-image"
               />
             </Link>

@@ -1,4 +1,6 @@
-
+//divider between each project
+//make the images of the projects half the size 
+//Photo should be on the left 
 
 
 
