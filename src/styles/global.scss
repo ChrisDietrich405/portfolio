@@ -1,4 +1,8 @@
 @import "~bootstrap/scss/functions";
 @import "./variables.scss";
 @import "~bootstrap/scss/mixins";
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+
+html {
+  scroll-behavior: smooth;
+}

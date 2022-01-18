@@ -2,9 +2,10 @@
   margin: 70px auto;
   width: 90%;
   display: flex;
-  // flex-direction: column;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  scroll-behavior: smooth;
 
   .about-me-picture-container {
     width: 30%;
@@ -13,7 +14,7 @@
     justify-content: center;
 
     img {
-      width: 300px;
+      width: 200px;
       border-radius: 10px;
     }
   }

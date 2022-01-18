@@ -7,7 +7,7 @@ export default function Projects() {
   const { projectRef } = useSection();
 
   return (
-    <div ref={projectRef}>
+    <div ref={projectRef} id="portfolio-section">
       <div className="projects-container">
         <h1>Projects</h1>
         <div className="project-section">
