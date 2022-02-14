@@ -39,13 +39,13 @@ export default function Navbar() {
               <a className="nav-link" href="#portfolio-section">
                 Projects
               </a>
-              Projects
+  
             </li>
             <li className="nav-item">
               <a
                 className="nav-link"
                 href="#aboutme-section"
-                // onClick={() => scrollTo(aboutMeRef.current.offsetTop)}
+                onClick={() => scrollTo(aboutMeRef.current.offsetTop)}
               >
                 About Me
               </a>

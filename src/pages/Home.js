@@ -15,7 +15,7 @@ import {
   SiRedux,
 } from "react-icons/all";
 
-import { BeforeAndAfterSliderFunctional } from "chris-library";
+// import { BeforeAndAfterSliderFunctional } from "chris-library";
 
 import GetInTouch from "../components/Footer";
 import Projects from "./Projects";
