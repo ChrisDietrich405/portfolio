@@ -1,7 +1,7 @@
 # portfolio
 
 This is my portfolio. 
-This project includes bootstrap and also the useContext React Hook
+This project includes Bootstrap and also the useContext React Hook
 
 ## How To Run This Project
 
@@ -17,7 +17,6 @@ You will also see any lint errors in the console.
 
 ## Screenshots of Landing Page
 
-Loading Page
 
 ![](public/images/githubreadme1.png)
 
