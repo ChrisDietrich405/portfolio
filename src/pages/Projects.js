@@ -19,7 +19,7 @@ export default function Projects() {
               fascinated with coding and next realized I had found my first real
               professinal passion.
             </p>
-            <a href="https://github.com/ChrisDietrich405/english-in-eight-react-final">
+            <a href="https://github.com/ChrisDietrich405/english-in-eight-react-final"  target="_blank">
               GitHub repo
             </a>
           </div>
@@ -60,7 +60,7 @@ export default function Projects() {
               building him one. For this project I used object oriented
               programming.
             </p>
-            <a href="https://github.com/ChrisDietrich405/dietrich-landcare">
+            <a href="https://github.com/ChrisDietrich405/dietrich-landcare" target="_blank">
               GitHub repo
             </a>
           </div>
@@ -74,7 +74,7 @@ export default function Projects() {
               the loading page of this project. I also finally understood how to
               work with state management
             </p>
-            <a href="https://github.com/ChrisDietrich405/GC.Shop">
+            <a href="https://github.com/ChrisDietrich405/GC.Shop" target="_blank">
               GitHub repo
             </a>
           </div>
@@ -108,7 +108,7 @@ export default function Projects() {
               This was my first freelance job, a website for a salon. Creating
               the modals for the appointment calendar was the biggest challenge.
             </p>
-            <a href="https://github.com/ChrisDietrich405/dietrich-landcare">
+            <a href="https://github.com/ChrisDietrich405/dietrich-landcare" target="_blank">
               GitHub repo
             </a>
           </div>
