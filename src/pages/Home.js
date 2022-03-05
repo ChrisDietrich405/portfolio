@@ -33,12 +33,12 @@ export default function Home() {
   return (
     <>
       <div className="home-container">
-        {/* <BeforeAndAfterSliderFunctional BeforePic="/images/about-me.jpg" />
+        {/* <BeforeAndAfterSliderFunctional BeforePic="/images/about-me.jpg" /> */}
         {shouldScrollToTop && (
-          <div className="scroll-top" onClick={scrollToTop}>
+          <div className="scroll-top" onClick={() => scrollToTop()}>
             <CgArrowUpR size={50} />
           </div>
-        )} */}
+        )}
         <h1>Successful Front-end Development</h1>
 
         <h3>

@@ -9,7 +9,7 @@ import "../styles/components/Navbar.scss";
 export default function Navbar() {
   const { projectRef, getInTouchRef, aboutMeRef } = useContext(SectionContext);
 
-  const { scrollTo } = useScroll();
+  const { scrollToSection } = useScroll();
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
@@ -39,13 +39,12 @@ export default function Navbar() {
               <a className="nav-link" href="#portfolio-section">
                 Projects
               </a>
-  
             </li>
             <li className="nav-item">
               <a
                 className="nav-link"
                 href="#aboutme-section"
-                onClick={() => scrollTo(aboutMeRef.current.offsetTop)}
+                onClick={() => scrollToSection(aboutMeRef.current.offsetTop)}
               >
                 About Me
               </a>
@@ -54,7 +53,7 @@ export default function Navbar() {
               <a
                 className="nav-link"
                 href="#"
-                onClick={() => scrollTo(getInTouchRef.current.offsetTop)}
+                onClick={() => scrollToSection(getInTouchRef.current.offsetTop)}
               >
                 Get in touch
               </a>

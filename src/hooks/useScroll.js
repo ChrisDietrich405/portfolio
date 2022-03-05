@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function useScroll() {
-  const [shouldScrollToTop, setShouldScrollToTop] = useState(false);
+  const [shouldScrollToTop, setShouldScrollToTop] = useState(true);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -17,12 +17,11 @@ export default function useScroll() {
 
   const scrollToTop = () => window.scrollTo(0, 0);
 
-  const scrollTo = (position) => {
-    console.log(position);
+  const scrollToSection = (position) => {
     window.scrollTo({ top: position, left: 0, behavior: "smooth" });
   };
 
-  return { shouldScrollToTop, scrollToTop, scrollTo };
+  return { shouldScrollToTop, scrollToTop, scrollToSection };
 
   // document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   //   anchor.addEventListener("click", function (e) {
