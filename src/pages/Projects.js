@@ -19,7 +19,10 @@ export default function Projects() {
               fascinated with coding and next realized I had found my first real
               professinal passion.
             </p>
-            <a href="https://github.com/ChrisDietrich405/english-in-eight-react-final"  target="_blank">
+            <a
+              href="https://github.com/ChrisDietrich405/english-in-eight-react-final"
+              target="_blank"
+            >
               GitHub repo
             </a>
           </div>
@@ -60,7 +63,10 @@ export default function Projects() {
               building him one. For this project I used object oriented
               programming.
             </p>
-            <a href="https://github.com/ChrisDietrich405/dietrich-landcare" target="_blank">
+            <a
+              href="https://github.com/ChrisDietrich405/dietrich-landcare-react-final"
+              target="_blank"
+            >
               GitHub repo
             </a>
           </div>
@@ -74,7 +80,10 @@ export default function Projects() {
               the loading page of this project. I also finally understood how to
               work with state management
             </p>
-            <a href="https://github.com/ChrisDietrich405/GC.Shop" target="_blank">
+            <a
+              href="https://github.com/ChrisDietrich405/GC.Shop"
+              target="_blank"
+            >
               GitHub repo
             </a>
           </div>
@@ -95,7 +104,7 @@ export default function Projects() {
           <div>
             <Link
               to={{
-                pathname: "https://dietrich-landcare.web.app/",
+                pathname: "https://beauty-by-jo.web.app/",
               }}
               target="_blank"
             >
@@ -108,7 +117,10 @@ export default function Projects() {
               This was my first freelance job, a website for a salon. Creating
               the modals for the appointment calendar was the biggest challenge.
             </p>
-            <a href="https://github.com/ChrisDietrich405/dietrich-landcare" target="_blank">
+            <a
+              href="https://github.com/ChrisDietrich405/beauty-by-jo"
+              target="_blank"
+            >
               GitHub repo
             </a>
           </div>
@@ -121,7 +133,7 @@ export default function Projects() {
               I built this website for a friend, someone who runs a nonprofit.
               It was fairly simple, but I was able to practice a lot with scss.
             </p>
-            <a href="https://github.com/ChrisDietrich405/GC.Shop">
+            <a href="https://github.com/ChrisDietrich405/earthsave-baltimore">
               GitHub repo
             </a>
           </div>
@@ -129,7 +141,7 @@ export default function Projects() {
           <div>
             <Link
               to={{
-                pathname: "https://gcshop-b5488.web.app/",
+                pathname: "https://earthsave-baltimore-c847b.web.app/",
               }}
               target="_blank"
             >
