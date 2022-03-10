@@ -42,10 +42,10 @@ export default function Home() {
         <h1>Successful Front-end Development</h1>
 
         <h3>
-          {" "}
           Hello I'm Chris, a React Developer with a true passion for web
           development
         </h3>
+
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-4 col-xs-12">
