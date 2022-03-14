@@ -19,7 +19,7 @@ export default function AboutMe() {
           found my first professional passion when I discovered front end
           development. It all started when I decided to build an English grammar
           website to help my students. As I started to build it (with the help
-          of one of my student) I became fascinated with the code.
+          of a couple of my students) I quickly became fascinated with the code.
         </p>
       </div>
     </div>
