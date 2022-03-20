@@ -46,9 +46,11 @@ export default function Footer() {
           <div className="contact">
             <div className="email-container">
               <p>
-                <AiOutlineMail />
+                <AiOutlineMail size="1.5em" />
               </p>
-              <p>chrisdietrich3666@gmail.com</p>
+              <a href="mailto:chrisdietrich3666@gmail.com">
+                chrisdietrich3666@gmail.com
+              </a>
             </div>
             <div className="contact-icons">
               <Link
@@ -56,21 +58,24 @@ export default function Footer() {
                 target="_blank"
               >
                 <FaGithubSquare
-                  size="2em"
+                  size="2.5em"
                   color="white"
                   className="github-icon"
                 />
               </Link>
               <Link
-                to={{ pathname: "https://github.com/ChrisDietrich405/" }}
+                to={{
+                  pathname:
+                    "https://www.linkedin.com/in/patricia-waltsak-2aa89a206/",
+                }}
                 target="_blank"
               >
-                <AiOutlineLinkedin size="2em" color="white" />
+                <AiOutlineLinkedin size="2.5em" color="white" />
               </Link>
             </div>
             <div className="phone-container">
               <p>
-                <AiFillPhone />
+                <AiFillPhone size="1.5em" />
               </p>
               <p>443 286 2875</p>
             </div>
