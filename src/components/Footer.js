@@ -2,8 +2,8 @@ import { useContext, useRef } from "react";
 import { Link } from "react-router-dom";
 import {
   FaGithubSquare,
-  AiOutlineLinkedin,
-  AiOutlineMail,
+  AiFillLinkedin,
+  AiFillMail,
   AiFillPhone,
 } from "react-icons/all";
 
@@ -46,11 +46,19 @@ export default function Footer() {
           <div className="contact">
             <div className="email-container">
               <p>
-                <AiOutlineMail size="1.5em" />
+                <AiFillMail size="1.5em" />
               </p>
-              <a href="mailto:chrisdietrich3666@gmail.com">
-                chrisdietrich3666@gmail.com
-              </a>
+              <p>
+                <a className="email" href="mailto:chrisdietrich3666@gmail.com">
+                  chrisdietrich3666@gmail.com
+                </a>
+              </p>
+            </div>
+            <div className="phone-container">
+              <p>
+                <AiFillPhone size="1.5em" />
+              </p>
+              <p>443 286 2875</p>
             </div>
             <div className="contact-icons">
               <Link
@@ -70,14 +78,8 @@ export default function Footer() {
                 }}
                 target="_blank"
               >
-                <AiOutlineLinkedin size="2.5em" color="white" />
+                <AiFillLinkedin size="2.8em" color="white" />
               </Link>
-            </div>
-            <div className="phone-container">
-              <p>
-                <AiFillPhone size="1.5em" />
-              </p>
-              <p>443 286 2875</p>
             </div>
           </div>
         </div>
@@ -102,8 +104,9 @@ export default function Footer() {
                 className="form-control"
                 id="exampleFormControlTextarea1"
                 rows="3"
+                placeholder="Add message here"
               ></textarea>
-              <button>Submit</button>
+              <button>SUBMIT</button>
             </form>
           </div>
         </div>

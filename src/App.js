@@ -1,3 +1,14 @@
+//subheading should all be on one line
+//the three boxes at top should all have the same height
+//the boxes in the project section should all have the same height
+//get rid of the lines between the projects
+//for about me section picture on left
+//and title and paragraph on right
+//get in touch first email, next phone number and
+//finally social media
+//make all the icons filled
+//instead of email hover color to blue add underline
+
 //divider between each project
 //make the images of the projects half the size
 //Photo should be on the left

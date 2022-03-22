@@ -41,7 +41,7 @@ export default function Projects() {
             </Link>
           </div>
         </div>
-        <hr />
+
         <div className="project-section-middle">
           <div>
             <Link
@@ -71,7 +71,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
-        <hr />
+
         <div className="project-section">
           <div className="card-body-project">
             <h5 className="card-title">CGShop</h5>
@@ -99,7 +99,7 @@ export default function Projects() {
             </Link>
           </div>
         </div>
-        <hr />
+
         <div className="project-section-middle">
           <div>
             <Link
@@ -125,7 +125,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
-        <hr />
+
         <div className="project-section">
           <div className="card-body-project">
             <h5 className="card-title">Earthsave Baltimore</h5>

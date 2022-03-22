@@ -2,7 +2,6 @@
   margin: 70px auto;
   width: 90%;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   scroll-behavior: smooth;
@@ -21,6 +20,11 @@
 
   .about-me-description-container {
     width: 70%;
+
+    h2 {
+      text-align: center;
+      padding-bottom: 20px;
+    }
   }
 
   .about-me-picture {

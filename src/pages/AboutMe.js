@@ -12,7 +12,7 @@ export default function AboutMe() {
         <img src="/images/about-me3.jpg" />
       </div>
       <div className="about-me-description-container">
-        <h1>About Chris</h1>
+        <h2>About Chris</h2>
         <p>
           I'm a devoted husband and father who enjoys cooking, reading and
           running. I taught for my most of professional life and enjoyed it, but
