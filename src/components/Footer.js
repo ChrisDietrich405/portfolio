@@ -6,36 +6,52 @@ import {
   AiFillMail,
   AiFillPhone,
 } from "react-icons/all";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import { SectionContext } from "../contexts/SectionContext";
-
-import emailjs from "@emailjs/browser";
 
 import "../styles/components/Footer.scss";
 
 export default function Footer() {
+  const notify = () => toast("Email was successfully sent");
   const { getInTouchRef } = useContext(SectionContext);
 
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    let userEmail = document.getElementById("exampleFormControlInput1").value;
+    let userMessage = document.getElementById(
+      "exampleFormControlTextarea1"
+    ).value;
 
+    var templateParams = {
+      email: userEmail,
+      message: userMessage,
+    };
+
+    console.log(templateParams);
+    console.log(process.env.REACT_APP_SERVICE_ID);
     emailjs
-      .sendForm(
-        "service_y7fq1o3",
-        "template_1b41rif",
-        form.current,
-        "Y8tiOkzf-c7ZDYAZy"
+      .send(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        templateParams,
+        process.env.REACT_APP_USER_ID
       )
       .then(
         (result) => {
+          notify();
           console.log(result.text);
         },
         (error) => {
           console.log(error.text);
         }
       );
+    document.getElementById("exampleFormControlInput1").value = "";
+    document.getElementById("exampleFormControlTextarea1").value = "";
   };
 
   return (
@@ -107,6 +123,7 @@ export default function Footer() {
                 placeholder="Add message here"
               ></textarea>
               <button>SUBMIT</button>
+              <ToastContainer />
             </form>
           </div>
         </div>
