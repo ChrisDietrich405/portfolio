@@ -15,14 +15,10 @@ import {
   SiRedux,
 } from "react-icons/all";
 
-// import { BeforeAndAfterSliderFunctional } from "chris-library";
-
 import GetInTouch from "../components/Footer";
 import Projects from "./Projects";
 import AboutMe from "./AboutMe";
 import useScroll from "../hooks/useScroll";
-
-import BeforePic from "..";
 
 import "../styles/pages/Home.scss";
 import "../styles/custom-style.scss";
@@ -33,7 +29,6 @@ export default function Home() {
   return (
     <>
       <div className="home-container">
-        {/* <BeforeAndAfterSliderFunctional BeforePic="/images/about-me.jpg" /> */}
         {shouldScrollToTop && (
           <div className="scroll-top" onClick={() => scrollToTop()}>
             <CgArrowUpR size={50} />
@@ -74,7 +69,6 @@ export default function Home() {
             </div>
             <div className="col-sm-12 col-md-12 col-lg-4 col-xs-12">
               <div className="card">
-                {/* <img src="..." className="card-img-top" alt="..."/> */}
                 <div className="card-body">
                   <h5 className="card-title">Frameworks</h5>
                   <div className="credentials">
@@ -95,7 +89,7 @@ export default function Home() {
 
             <div className="col-sm-12 col-md-12 col-lg-4 col-xs-12">
               <div className="card">
-                {/* <img src="..." className="card-img-top" alt="..."/> */}
+               
                 <div className="card-body">
                   <h5 className="card-title">Other Stuff</h5>
                   <div className="credentials">

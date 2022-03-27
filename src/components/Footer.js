@@ -32,8 +32,6 @@ export default function Footer() {
       message: userMessage,
     };
 
-    console.log(templateParams);
-    console.log(process.env.REACT_APP_SERVICE_ID);
     emailjs
       .send(
         process.env.REACT_APP_SERVICE_ID,
@@ -44,7 +42,6 @@ export default function Footer() {
       .then(
         (result) => {
           notify();
-          console.log(result.text);
         },
         (error) => {
           console.log(error.text);
